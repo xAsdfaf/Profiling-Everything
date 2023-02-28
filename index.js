@@ -79,7 +79,7 @@ const managerAdd = () => {
         const  { name, id, email, numberOffice } = inputManager;
         const manager = new Manager (name, id, email, numberOffice);
 
-        teamArray.push(manager);
+        arrayTeam.push(manager);
         console.log(manager);
     })
 };
@@ -197,7 +197,7 @@ const employeeAdd = () => {
             console.log(employee);
         }
     // pushing the employee to the array
-        teamArray.push(employee);
+        arrayTeam.push(employee);
     // confirmation ties in to repeat or end the function
         if (confirmation) {
             return employeeAdd(arrayTeam);
@@ -207,3 +207,31 @@ const employeeAdd = () => {
     })
 
 };
+
+// function to generate HTML page file using file system
+const writeFile = data => {
+    fs.writeFile('./dist/index.html', data, err => {
+        // if there is an error
+        if (err) {
+            console.log(err);
+            return;
+        // when the profile has been created
+        } else {
+            console.log("Your team profile has been successfully created! Please check out the index.html")
+        }
+    })
+};
+
+// function to add a manager
+managerAdd()
+  .then(employeeAdd)
+  .then(arrayTeam => {
+    return generateHTML(arrayTeam);
+  })
+  .then(pageHTML => {
+    return writeFile(pageHTML);
+  })
+  .catch(err => {
+ console.log(err);
+  });
+
