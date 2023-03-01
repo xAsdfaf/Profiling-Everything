@@ -1,0 +1,28 @@
+{
+  "name": "profiling-everything",
+  "version": "1.0.0",
+  "description": "profiler",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "na"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xAsdfaf/Profiling-Everything.git"
+  },
+  "author": "xAsdfaf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xAsdfaf/Profiling-Everything/issues"
+  },
+  "homepage": "https://github.com/xAsdfaf/Profiling-Everything#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.4",
+    "jest": "^29.4.3"
+  }
+}
