@@ -1,7 +1,9 @@
 # Profiling Everything
 
 ## [Video Link](https://www.youtube.com/watch?v=1BeqDK_EYW4&ab_channel=Asdfaf)
+
 ## License: MIT  ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
+
 ### https://choosealicense.com/licenses/mit/
 
 *[Installation](#install)
@@ -12,18 +14,45 @@
 
 # Description
 An employee profiler, giving quick access to their ID, email, and any other relevant information.
+
 ## Installation
 use npm i
+
 ## Usage
 use npm i and then run node index.js
+
 ## Contribution
 N/A
+
 ## Testing
-N/A
+Use "jest tests" to run all of the tests
+
 ### Credits
 George Jordan - Judgedgeo, W3Schools, StackOverflow, and youtube tutorials.
+
 ### License
-MIT
+MIT License
+
+Copyright (c) 2023 xAsdfaf
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 ### Questions
 If you have any questions, please feel free to reach out! 
     *GitHub: https://github.com/xAsdfaf
