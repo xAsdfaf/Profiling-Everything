@@ -1,5 +1,6 @@
 # Profiling Everything
 
+## [Video Link](https://www.youtube.com/watch?v=1BeqDK_EYW4&ab_channel=Asdfaf)
 ## License: MIT  ![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
 ### https://choosealicense.com/licenses/mit/
 
