@@ -27,10 +27,10 @@ N/A
 ## Testing
 Use "jest tests" to run all of the tests
 
-### Credits
+## Credits
 George Jordan - Judgedgeo, W3Schools, StackOverflow, and youtube tutorials.
 
-### License
+## License
 MIT License
 
 Copyright (c) 2023 xAsdfaf
@@ -53,7 +53,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-### Questions
+## Questions
 If you have any questions, please feel free to reach out! 
     *GitHub: https://github.com/xAsdfaf
     *Email Address: georgejordanjr8@gmail.com
